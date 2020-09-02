@@ -64,14 +64,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-images/homepage.png images/tour.png
+(images/homepage.png) 
+(images/tour.png)
 
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
-images/hPageBreakdown.png
-images/headerBreakdown.png
-images/section1Breakdown.png
-images/section2Breakdown.png
-images/section3Breakdown.png
-images/footerBreakdown.png
+(images/hPageBreakdown.png)
+(images/headerBreakdown.png)
+(images/section1Breakdown.png)
+(images/section2Breakdown.png)
+(images/section3Breakdown.png)
+(images/footerBreakdown.png)
