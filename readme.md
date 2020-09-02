@@ -68,6 +68,7 @@ images/homepage.png images/tour.png
 
 **Breakdown-schets(en):**
 
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
 images/hPageBreakdown.png
 images/headerBreakdown.png
 images/section1Breakdown.png
