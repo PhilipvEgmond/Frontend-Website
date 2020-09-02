@@ -1,5 +1,6 @@
 # Procesverslag
 **Auteur:** Philip van Egmond
+https://philipvegmond.github.io/Frontend-Website/
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -60,7 +61,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** Responsive
 
-**Je opdracht:** jacobcollier.com
+**Je opdracht:** https://www.jacobcollier.com/
 
 **Screenshot(s):**
 
