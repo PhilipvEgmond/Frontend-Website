@@ -1,5 +1,149 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
 }
 
+@font-face {
+  font-family: "Neutra Text Book";
+  src: url(../fonts/NeutraText-Book.otf);
+}
+
+
+
+body {
+  font-family: "Neutra Text Book";
+  font-size: 1.1em;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* De stijlveranderingen tussen de 4 albums. */
+body.v1 {
+  background: url("../images/backgroundV1.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+body.v2 {
+  background: url("../images/backgroundV2.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+body.v3{
+  background: url("../images/backgroundV3.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+body.v4 {
+  background: url("../images/backgroundV4.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+
+
+
+
+nav {
+  font-size: .9em;
+  width: 100%;
+  margin: 2em 0 6em 0;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #999;
+
+  padding: 0px 8px;
+}
+
+nav li {
+  padding: 0 .5em;
+  letter-spacing: .01em;
+  transform: scale(1, .9);
+}
+
+header img {
+  filter: invert(100%);
+  display: block;
+  margin: 1.5em auto 0 auto;
+  width: 400px;
+  max-width: 70%;
+}
+
+
+
+main {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+
+
+video {
+  margin-top: 1.5em;
+  max-width: 90%;
+}
+
+.button1 {
+  display: block;
+  margin: 1.5em auto 0 auto;
+  width: 400px;
+  height: 70px;
+  max-width: 90%;
+  line-height: 65px;
+  font-size: 24px;
+  letter-spacing: .2em;
+
+  border: 3px solid #fff;
+  border-radius: 50px;
+  border-color: #007edb #62721d #4c4c4c #af2023;
+
+  background: #0A1115;
+  transition: .3s;
+}
+
+.button1:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.03);
+  background: rgba(255, 255, 255, .4)
+}
+
+.button2 {
+
+}
+
+
+/* Album store pages */
+#redirect {
+  display: flex;
+
+  width: 1280px;
+  max-width: 90%;
+  margin: 1.5em auto 0 auto;
+  list-style: none;
+}
+
+#redirect li {
+  flex-grow: 1;
+  background-color: pink;
+}
+
+#redirect li:first-of-type {
+  color: #007edb;
+}
+
+#redirect li:nth-of-type(2) {
+  color: #62721d;
+}
+
+#redirect li:nth-of-type(3) {
+  color: #fff;
+}
+
+#redirect li:last-of-type {
+  color: #af2023;
+}
