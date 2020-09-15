@@ -39,7 +39,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig- <br>
 Ik ben vooral heel veel tijd kwijt aan mijn Homepage. 
 Deze heeft vier verschillende thema's die ik werkende moet maken en een interactief video element, ik wil mezelf graag uitdagen.
 Ook ben ik meteen al bezig met alles responsive maken. Hierom ben ik veel meer tijd kwijt en heb ik de pagina niet af.
