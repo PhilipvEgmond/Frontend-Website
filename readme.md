@@ -40,6 +40,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+Ik ben vooral heel veel tijd kwijt aan mijn Homepage. 
+Deze heeft vier verschillende thema's die ik werkende moet maken en een interactief video element, ik wil mezelf graag uitdagen.
+Ook ben ik meteen al bezig met alles responsive maken. Hierom ben ik veel meer tijd kwijt en heb ik de pagina niet af.
+
+Ik heb moeite met het stylen van de album navigatie. Het is een ul van a's met een ingewikkelde opmaak.
+![](images/albumNav.png)
+
+Ook heb ik nog niet helemaal bedacht hoe ik de vlakverdeling boven de video kan regelen op een manier dat het responsive blijft. Dit lijkt me de aller grootste uitdaging.
+
 
 **Screenshot(s):**
 
@@ -48,6 +57,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
+Wat moet er in de bronnenlijst? <br>
+
 
 ### Verslag van meeting
 
