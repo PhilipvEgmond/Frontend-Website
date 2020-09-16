@@ -44,7 +44,7 @@ Ik ben vooral heel veel tijd kwijt aan mijn Homepage.
 Deze heeft vier verschillende thema's die ik werkende moet maken en een interactief video element, ik wil mezelf namelijk graag uitdagen.
 Ook ben ik meteen al bezig met alles responsive maken. Hierom ben ik veel meer tijd kwijt en heb ik de pagina niet af.
 
-Ik heb moeite met het stylen van de album navigatie. Het is een ul van a's met een ingewikkelde opmaak.
+Ik heb moeite met het stylen van de album storepage navigatie. Het is een ul van a's met een ingewikkelde opmaak.
 ![](images/albumNav.png)
 
 Ook heb ik nog niet helemaal bedacht hoe ik de vlakverdeling boven de video kan regelen op een manier dat het responsive blijft.
@@ -63,6 +63,7 @@ Voor de rest gaat het eigenlijk heel lekker, ik ben verder nog niks tegengekomen
 
 -samen met je groepje opstellen-
 Wat moet er in de bronnenlijst? <br>
+Advies album storepage navigatie.
 
 
 ### Verslag van meeting
