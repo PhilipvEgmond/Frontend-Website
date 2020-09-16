@@ -55,9 +55,9 @@ Voor de rest gaat het eigenlijk heel lekker, ik ben verder nog niks tegengekomen
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
-![](images/voortgang1SSMobiel)
-![](images/voortgang1SSPC1)
-![](images/voortgang1SSPC2)
+![](images/voortgang1SSMobiel.png)
+![](images/voortgang1SSPC1.png)
+![](images/voortgang1SSPC2.png)
 
 ### Agenda voor meeting
 
