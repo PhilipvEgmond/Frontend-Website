@@ -14,7 +14,7 @@
 
 body {
   font-family: "Neutra Text Book";
-  font-size: 1.1em;
+  font-size: 23px;
   font-weight: 900;
   color: #fff;
   text-transform: uppercase;
@@ -95,7 +95,7 @@ video {
   height: 70px;
   max-width: 90%;
   line-height: 65px;
-  font-size: 24px;
+  font-size: 23px;
   letter-spacing: .2em;
 
   border: 3px solid #fff;
@@ -112,9 +112,7 @@ video {
   background: rgba(255, 255, 255, .4)
 }
 
-.button2 {
 
-}
 
 
 /* Album store pages */
@@ -129,21 +127,25 @@ video {
 
 #redirect li {
   flex-grow: 1;
-  background-color: pink;
+  line-height: 60px;
 }
 
 #redirect li:first-of-type {
   color: #007edb;
+  border-top: 3px solid #007edb;
 }
 
 #redirect li:nth-of-type(2) {
   color: #62721d;
+  border-top: 3px solid #62721d;
 }
 
 #redirect li:nth-of-type(3) {
   color: #fff;
+  border-top: 3px solid #fff;
 }
 
 #redirect li:last-of-type {
   color: #af2023;
+  border-top: 3px solid #af2023;  
 }
