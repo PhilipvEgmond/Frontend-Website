@@ -45,7 +45,10 @@ Dit is het enige waarvoor ik mediaqueries nodig heb gehad dus ik weet niet of he
 Ook kwam ik er pas later achter hoe je meerdere transform properties tegelijk kan gebruiken.
 Ik heb eerst eromheen lopen prutsen en heb dus misschien iets minder nette code daar.
 
-De eerste pagina is que HTML nu wel af, ik moet alleen de code voor de interactieviteit nog schrijven.
+Als laatst werden de video clips helaas niet geaccepteerd in de iframes door ownership, lijkt me.
+Hierom heb ik een thumbnail gemaakt die doorverwijst naar de YT page.
+
+De eerste pagina is qua HTML nu wel af, ik moet alleen de code voor de interactieviteit nog schrijven.
 Ik ga alleen eerst de tweede pagina maken, die een stuk simpeler is.
 Ik verwacht hier dus ook niet lang mee bezig te zijn en kan daarna de interacties coderen.
 
