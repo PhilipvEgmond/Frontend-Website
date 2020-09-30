@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -https://jacobcollier.com voor alle content en enkele CSS trucjes als invert om de header images wit te maken.-
+1. -https://jacobcollier.com voor alle content en enkele CSS trucjes zoals invert om de header images wit te maken.-
 2. -https://www.bitdegree.org/learn/responsive-image#:~:text=Using%20CSS%2C%20you%20can%20set,or%20bigger%20than%20the%20viewport. voor het responsive maken van de backgrounds.-
 3. -https://freefontsfamily.com/neutra-text-font-family-free-download/ font.-
 4. -https://css-tricks.com/snippets/css/a-guide-to-flexbox/ voor flexbox.-
@@ -34,7 +34,37 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+-Dit ging goed en dit was lastig- <br>
+Er is één ding dat niet heel soepel is gegaan. 
+Er zijn 3 elementen waarvoor ik veel mediaqueries nodig heb gehad om het responsive te maken.
+Dit is het enige waarvoor ik mediaqueries nodig heb gehad dus ik weet niet of het gek is.
+![](images/mediaqueries.png) 
+
+Ook kwam ik er pas later achter hoe je meerdere transform properties tegelijk kan gebruiken.
+Ik heb eerst eromheen lopen prutsen en heb dus misschien iets minder nette code daar.
+
+De eerste pagina is que HTML nu wel af, ik moet alleen de code voor de interactieviteit nog schrijven.
+Ik ga alleen eerst de tweede pagina maken, die een stuk simpeler is.
+Ik verwacht hier dus ook niet lang mee bezig te zijn en kan daarna de interacties coderen.
+
+
+**Screenshot(s):**
+
+![](images/voortgang2SSMobiel.png)
+![](images/voortgang2SSPC1.png)
+![](images/voortgang2SSPC2.png)
+
+
+### Agenda voor meeting
+
+Kan ik media queries beter aanpakken?
+
+
+### Verslag van meeting
+
+
 
 
 
