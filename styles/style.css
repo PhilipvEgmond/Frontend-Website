@@ -75,6 +75,10 @@ nav li {
   padding: 0 .5em;
   letter-spacing: .01em;
   transform: scale(1, .9);
+  cursor:pointer
+}
+nav ul:hover{
+color:rgb(0,0,0)
 }
 
 
