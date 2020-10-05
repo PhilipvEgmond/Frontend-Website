@@ -42,6 +42,23 @@ body.v4 {
   background-size: cover;
 }
 
+body span:nth-of-type(1) {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+  transition: .8s;
+}
+
+.flash {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.fade {
+  background-color: rgba(255, 255, 255, 0);
+}
+
 
 
 
