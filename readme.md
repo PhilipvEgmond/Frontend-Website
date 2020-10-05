@@ -13,6 +13,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. -https://css-tricks.com/snippets/css/a-guide-to-flexbox/ voor flexbox.-
 5. -https://w0.pngwave.com/png/261/757/computer-icons-google-play-music-button-play-png-clip-art-thumbnail.png Play button.-
 6. -https://riptutorial.com/css/example/4130/multiple-transforms Door dit artikel kwam ik erachter hoe je meerdere transforms op één element kan toepassen.-
+7. -https://stackoverflow.com/questions/807878/how-to-make-javascript-execute-after-page-load Hier heb ik het load event in gevonden.-
 
 
 
