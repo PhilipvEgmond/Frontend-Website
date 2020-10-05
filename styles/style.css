@@ -66,7 +66,6 @@ nav ul{
   display: flex;
   justify-content: center;
   list-style: none;
-  color: #999;
 
   padding: 0px 8px;
 }
@@ -77,9 +76,18 @@ nav li {
   transform: scale(1, .9);
 }
 
+nav a {
+  color: #999;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
 
 /* Header images */
-header img {
+#homePage header img {
   filter: invert(100%);
   display: block;
   margin: 1.5em auto 0 auto;
@@ -116,18 +124,17 @@ main {
   transition: .3s;
 }
 
-.button1:hover {
+.button1:hover, .button1:focus {
   cursor: pointer;
   background: rgba(255, 255, 255, .4)
 }
 
-#soundButton:hover {
+#soundButton:hover, #soundButton:focus {
   transform: scale(1.05, 1.03);
 }
 
-
-/* Section 1 video */
-div {
+/* Container section 1 */
+section:nth-of-type(1) div {
   position: relative;
 
   width: 80%;
@@ -159,7 +166,7 @@ div a.button1 {
 /* Positie knop 1 */
 div a:nth-of-type(1) {
   position: absolute;
-  left:0%;
+  left:10%;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -167,9 +174,20 @@ div a:nth-of-type(1) {
 /* Positie knop 2 */
 div a:nth-of-type(2) {
   position: absolute;
-  right: 0%;
+  right: 10%;
   top: 50%;
   transform: translateY(-50%);
+}
+
+/* Zet de knoppen aan de rand vast zodat ze meegaan met de video */
+@media (max-width: 1080px) {
+  div a:nth-of-type(1) {
+    left: 0;
+  }
+
+  div a:nth-of-type(2) {
+    right: 0;
+  }
 }
 
 /* Maakt de knoppen kleiner op kleine schermen */
@@ -281,7 +299,7 @@ video {
   transition: .3s;
 }
 
-.button2:hover {
+.button2:hover, .button2:focus {
   transform: translate(0, 0);
   box-shadow: 0 0 0 0 #909090;
   background: rgba(255, 255, 255, .4);
@@ -333,11 +351,20 @@ article a {
   position: absolute;
   top: 52%;
   left: 50%;
+  
+  transform-origin: left;
   transform: translateX(-50%);
+  transition: .3s;
 
   border: 3px solid white;
   border-radius: 50%;
   
+}
+
+article a:hover, article a:focus {
+  cursor: pointer;
+  transform: scale(1.1) translateX(-50%);
+  background-color: black;
 }
 
 /* Img in play button */
@@ -408,3 +435,66 @@ section:nth-of-type(3) .button2 {
     font-size: 22px;
   }
 }
+
+
+
+
+/* ----- TOUR PAGE ----- */
+
+/* ---- Header ---- */
+#tourPage header img {
+  display: block;
+  margin: 1.5em auto 0 auto;
+  max-width: 90%;
+}
+
+#tourPage header img:last-of-type {
+  margin: 0 auto 0 auto;
+}
+
+
+
+/* ---- Main ---- */
+
+#tourPage h2 {
+  border-bottom: solid white 2px;
+  padding-bottom: .3em;
+  width: 1200px;
+  max-width: 90%;
+  margin: 1.5em auto 0 auto;
+}
+
+#tourPage main ul {
+  padding-top: 1.5em;
+  width: 1200px;
+  max-width: 90%;
+  margin: auto auto;
+  list-style: none;
+  font-size: 20px;
+
+  display: flex;
+}
+
+#tourPage main li {
+  flex-grow: 1;
+  flex-basis: .5;
+}
+
+#tourPage li p {
+  text-transform: none;
+}
+
+#tourPage li button {
+  text-transform: capitalize;
+  font-family: "Neutra Text Book";
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+  
+
+  background-color: white;
+  border-color: transparent;
+  border-radius: 1.5em;
+  padding: .3em;
+}
+

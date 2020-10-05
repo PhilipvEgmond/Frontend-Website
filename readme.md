@@ -67,6 +67,9 @@ Kan ik media queries beter aanpakken?
 
 ### Verslag van meeting
 
+Het enige waar ik op het moment advies bij nodig had waren de media queries.
+Ik vroeg me af of ik niet met minder media queries kon werken omdat ik telkens kleine veranderingen heb.
+Door met procenten op fonts te werken voorkom je handmatig de font te moeten aanpassen.
 
 
 
