@@ -29,7 +29,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+-Dit ging goed en dit was lastig- <br>
+Ik heb de tweede pagina al voor een goed deel af. Ik hoef alleen maar de flexbox en buttons werkende te maken en dan is het copy paste.
+Ik loop nu alleen tegen flex-basis aan, die krijg ik niet werkende.
+
+
+**Screenshot(s)**
+
+![](images/voortgang3SSMobiel.png)
+
+
+### Agenda voor meeting
+
+Waarom werkt mijn flex-basis niet?
+
+
+### Verslag na meeting
+
+
 
 
 

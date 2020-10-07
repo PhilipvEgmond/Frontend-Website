@@ -493,9 +493,8 @@ section:nth-of-type(3) .button2 {
   display: flex;
 }
 
-#tourPage main li {
-  flex-grow: 1;
-  flex-basis: .5;
+#tourPage main ul li {
+  flex-basis: 50%;
 }
 
 #tourPage li p {
