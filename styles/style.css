@@ -42,11 +42,13 @@ body.v4 {
   background-size: cover;
 }
 
+
+/* Fade in laden pagina */
 body span:nth-of-type(1) {
   position: fixed;
   height: 100%;
   width: 100%;
-  z-index: 2;
+  z-index: 100;
   top: 0;
   transition: .8s;
 }
@@ -58,6 +60,10 @@ body span:nth-of-type(1) {
 .fade {
   background-color: rgba(255, 255, 255, 0);
   visibility: hidden;
+}
+
+.disabled {
+  display: none;
 }
 
 
@@ -152,7 +158,7 @@ main {
 }
 
 /* Container section 1 */
-section:nth-of-type(1) div {
+section:nth-of-type(1) div:first-child {
   position: relative;
 
   width: 80%;
@@ -160,16 +166,16 @@ section:nth-of-type(1) div {
 }
 
 /* Maakt img wit */
-main a img {
+main button img {
   filter: invert(100%);
 }
 
 /* Spiegelt eerste knop */
-div a:nth-of-type(1) img {
+div button:nth-of-type(1) img {
   transform: scaleX(-1);
 }
 
-div a.button1 {
+div button.button1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,15 +188,16 @@ div a.button1 {
 }
 
 /* Positie knop 1 */
-div a:nth-of-type(1) {
+div button:nth-of-type(1) {
   position: absolute;
+  z-index: 2;
   left:10%;
   top: 50%;
   transform: translateY(-50%);
 }
 
 /* Positie knop 2 */
-div a:nth-of-type(2) {
+div button:nth-of-type(2) {
   position: absolute;
   right: 10%;
   top: 50%;
@@ -199,34 +206,62 @@ div a:nth-of-type(2) {
 
 /* Zet de knoppen aan de rand vast zodat ze meegaan met de video */
 @media (max-width: 1080px) {
-  div a:nth-of-type(1) {
+  div button:nth-of-type(1) {
     left: 0;
   }
 
-  div a:nth-of-type(2) {
+  div button:nth-of-type(2) {
     right: 0;
   }
 }
 
 /* Maakt de knoppen kleiner op kleine schermen */
 @media (max-width: 650px) {
-  div a.button1 {
+  div button.button1 {
     width: 2.5em;
     height: 2.5em;
   }
 
-  main a img {
+  main button img {
     transform: scale(.75);
   }
 
-  div a:nth-of-type(1) img {
+  div button:nth-of-type(1) img {
     transform: scale(-.75)
   }
+}
+
+div div {
+  position: relative;
 }
 
 video {
   margin-top: 1.5em;
   max-width: 90%;
+}
+
+section:nth-of-type(1) span {
+  position: absolute;
+  height: 45%;
+  width: 40%;
+  background-color: pink;
+}
+
+section:nth-of-type(1) span:nth-of-type(1) {
+  top: 5%;
+  left: 13%;
+}
+
+section:nth-of-type(1) span:nth-of-type(2) {
+  
+}
+
+section:nth-of-type(1) span:nth-of-type(3) {
+  
+}
+
+section:nth-of-type(1) span:nth-of-type(4) {
+  
 }
 
 
@@ -265,6 +300,7 @@ video {
   transform: translateX(-50%);
 }
 
+
 /* Actieve album groter */
 #redirect li.active::before {
   border: 4px solid black;
@@ -294,6 +330,10 @@ video {
   border-top: 4px solid rgba(175, 32, 35, .6);  
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
 
 /* Button 2: mainling list */
 .button2 {
@@ -535,6 +575,11 @@ section:nth-of-type(3) .button2 {
   margin-top: .5em;
 }
 
+#tourPage li button:hover, #tourPage li button:focus {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
 
 
 
