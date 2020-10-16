@@ -48,7 +48,9 @@ Waarom werkt mijn flex-basis niet?
 
 ### Verslag na meeting
 
-
+Ik realiseerde me zelf het antwoord op mijn vraag net voor de meeting.
+Ik had geen flex-wrap gebruikt.
+Verder had ik geen vragen.
 
 
 
