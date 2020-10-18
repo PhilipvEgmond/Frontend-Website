@@ -130,7 +130,9 @@ main {
 /* ---- Section 1 ---- */
 
 /* Button 1: Give me a Sound */
-.button1 {
+button {
+  font-family: "Neutra Text Book";
+  font-weight: 900;
   display: block;
   margin: 1.5em auto 0 auto;
   width: 400px;
@@ -138,7 +140,9 @@ main {
   max-width: 90%;
   line-height: 65px;
   font-size: 23px;
+  color: white;
   letter-spacing: .2em;
+  text-transform: uppercase;
 
   border: 3px solid #fff;
   border-radius: 50px;
@@ -157,7 +161,9 @@ main {
   transform: scale(1.05, 1.03);
 }
 
-/* Container section 1 */
+
+
+/* Container section 1 -- kreeg het niet voor elkaar met article??? */
 section:nth-of-type(1) div:first-child {
   position: relative;
 
@@ -232,6 +238,8 @@ div button:nth-of-type(2) {
   }
 }
 
+
+/* Video */
 div div {
   position: relative;
   margin: 1.5em auto 0 auto;
@@ -239,16 +247,23 @@ div div {
   max-width: 90%;
 }
 
+/* Alleen de active video zal zictbaar zijn */
 video {
   width: 100%;
+  display: none;
 }
 
+video.active {
+  display: inline;
+}
+
+/* 4 spans over video heengezet als onzichtbare buttons */
 section:nth-of-type(1) span {
   position: absolute;
   height: 50%;
   width: 50%;
   z-index: 2;
-  
+  cursor: pointer;
 }
 
 section:nth-of-type(1) span:nth-of-type(1) {
@@ -342,26 +357,17 @@ a {
   text-decoration: none;
 }
 
-/* Button 2: mainling list */
+/* Button 2: mailing list */
 .button2 {
-  display: block;
-  margin: 1.5em auto 0 auto;
-  width: 400px;
   height: 60px;
-  max-width: 90%;
   line-height: 55px;
   font-size: 23px;
   letter-spacing: .2em;
 
-  border: 3px solid #fff;
-  border-radius: 50px;
-
+  border-color: #fff;
   box-shadow: 5px 5px 0 0 #909090;
 
   transform: translate(-.2em, -.2em);
-
-  background: #0A1115;
-  transition: .3s;
 }
 
 .button2:hover, .button2:focus {

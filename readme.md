@@ -14,6 +14,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 5. -https://w0.pngwave.com/png/261/757/computer-icons-google-play-music-button-play-png-clip-art-thumbnail.png Play button.-
 6. -https://riptutorial.com/css/example/4130/multiple-transforms Door dit artikel kwam ik erachter hoe je meerdere transforms op één element kan toepassen.-
 7. -https://stackoverflow.com/questions/807878/how-to-make-javascript-execute-after-page-load Hier heb ik het load event in gevonden.-
+8. -https://stackoverflow.com/questions/19053181/how-to-remove-focus-around-buttons-on-click Voor de onclick om focus weg te halen.
 
 
 
@@ -50,7 +51,7 @@ Waarom werkt mijn flex-basis niet?
 
 Ik realiseerde me zelf het antwoord op mijn vraag net voor de meeting.
 Ik had geen flex-wrap gebruikt.
-Verder had ik geen vragen.
+Met ::after kan je geen button toevoegen, dit was me uiteraard ook al niet gelukt.
 
 
 

@@ -1,1 +1,17 @@
 [1015/131153.340:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[1016/101054.487:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[1016/133358.295:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[1017/174957.366:ERROR:process_reader_win.cc(123)] NtOpenThread: {Toegang geweigerd} Een proces heeft toegang tot een object aangevraagd, maar heeft deze toegangsrechten niet gekregen. (0xc0000022)
+[1017/174957.616:ERROR:process_reader_win.cc(123)] NtOpenThread: {Toegang geweigerd} Een proces heeft toegang tot een object aangevraagd, maar heeft deze toegangsrechten niet gekregen. (0xc0000022)
+[1017/174957.819:ERROR:process_info.cc(329)] VirtualQueryEx: Toegang geweigerd. (0x5)
+[1017/174958.046:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[1017/174958.031:ERROR:process_info.cc(329)] VirtualQueryEx: Toegang geweigerd. (0x5)
+[1017/174958.046:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[1017/174958.046:ERROR:exception_snapshot_win.cc(99)] thread ID 16916 not found in process
+[1017/174958.046:ERROR:exception_snapshot_win.cc(99)] thread ID 5632 not found in process
+[1017/174957.819:ERROR:process_info.cc(329)] VirtualQueryEx: Toegang geweigerd. (0x5)
+[1017/174958.046:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[1017/174958.046:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Er is geprobeerd toegang te krijgen tot een proces dat wordt afgesloten. (0xc000010a)
+[1017/174958.046:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Er is geprobeerd toegang te krijgen tot een proces dat wordt afgesloten. (0xc000010a)
+[1017/174958.046:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Er is geprobeerd toegang te krijgen tot een proces dat wordt afgesloten. (0xc000010a)
+[1017/174958.046:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Er is geprobeerd toegang te krijgen tot een proces dat wordt afgesloten. (0xc000010a)

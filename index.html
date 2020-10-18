@@ -32,21 +32,34 @@
 	<main>
 		<section>
 			<div>
-				<button class="button1"><img src="images/playButton.png" height="65px" width="65px" /></button>
-				<div id="video3">
+				<button class="button1" onclick="this.blur();"><img src="images/playButton.png" height="65px" width="65px" /></button>
+				<div>
+					<!-- alleen .active video is zichtbaar -->
 					<video width="600">
-						<source src="images/videoVol3.mp4" type="video/mp4" />
+						<source src="media/videoVol1.mp4" type="video/mp4" />
 					</video>
+
+					<video width="600">
+						<source src="media/videoVol2.mp4" type="video/mp4" />
+					</video>
+
+					<video width="600" class="active">
+						<source src="media/videoVol3.mp4" type="video/mp4" />
+					</video>
+
+					<video width="600">
+						<source src="media/videoVol4.mp4" type="video/mp4" />
+					</video>
+					<!-- Buttons over video -->
 					<span></span>
 					<span></span>
 					<span></span>
 					<span></span>
 				</div>
-				<button class="button1"><img src="images/playButton.png" height="65px" width="65px" /></button>
+				<button class="button1" onclick="this.blur();"><img src="images/playButton.png" height="65px" width="65px" /></button>
 			</div>
 
-			<a class="button1" id="soundButton">Give me a sound</a>
-			
+			<button class="button1" id="soundButton" onclick="this.blur();">Give me a sound</button>
 		</section>
 
 		
@@ -58,7 +71,7 @@
 				<li><a>Vol 4</a></li>
 			</ul>
 
-			<a class="button2">Djesse's mailing list</a>
+			<button class="button2" onclick="this.blur();">Djesse's mailing list</button>
 		</section>
 
 		<section>
@@ -68,7 +81,7 @@
 				<a href="https://www.youtube.com/watch?v=dR4IwtiEbyo&ab_channel=JacobCollier" target="_blank"><img src="images/playButton.png" height="65px" width="65px" /></a>
 			</article>
 
-			<a class="button2">Listen to Djesse Vol. 3</a>
+			<button class="button2" onclick="this.blur();">Listen to Djesse Vol. 3</button>
 		</section>
 		
 	</main>
