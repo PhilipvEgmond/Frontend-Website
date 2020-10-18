@@ -163,6 +163,34 @@ main {
 }
 
 
+/* Stijl verandingeren buttons */
+.v1 .button1, .v1 .button2 {
+  background: #DECCC8;
+}
+
+.v1 .button1:hover, .v1 .button1:focus, .v1 .button2:hover, .v1 .button2:focus {
+  cursor: pointer;
+  background: rgba(255, 255, 255, .4)
+}
+
+.v2 .button1, .v2 .button2 {
+  background: #214D27;
+}
+
+.v2 .button1:hover, .v2 .button1:focus, .v2 .button2:hover, .v2 .button2:focus {
+  cursor: pointer;
+  background: rgba(255, 255, 255, .4)
+}
+
+.v4 .button1, .v4 .button2 {
+  background: #AE2D19;
+}
+
+.v4 .button1:hover, .v4 .button1:focus, .v4 .button2:hover, .v4 .button2:focus {
+  cursor: pointer;
+  background: rgba(255, 255, 255, .4)
+}
+
 
 /* Container section 1 -- kreeg het niet voor elkaar met article??? */
 section:nth-of-type(1) div:first-child {

@@ -17,22 +17,45 @@ window.addEventListener("load", fade);
 var previousButton = document.querySelector("section:nth-of-type(1) button:nth-of-type(1)");
 var nextButton = document.querySelector("section:nth-of-type(1) button:nth-of-type(2)");
 var bodyClasses = ["v1", "v2", "v3", "v4"];
+var video;
+var albumNav;
 
 function goBack() {
+    video = document.querySelector("video:nth-of-type(" + currentAlbum + ")");
+    albumNav = document.querySelector("#redirect li:nth-of-type(" + currentAlbum + ")");
+
     if(currentAlbum > 1) {
         bodyElement.classList.remove(bodyClasses[currentAlbum - 1]);
+        video.classList.remove("active");
+        albumNav.classList.remove("active");
+
         currentAlbum--;
+        video = document.querySelector("video:nth-of-type(" + currentAlbum + ")");
+        albumNav = document.querySelector("#redirect li:nth-of-type(" + currentAlbum + ")");
+        
         bodyElement.classList.add(bodyClasses[currentAlbum - 1]);
+        video.classList.add("active");
+        albumNav.classList.add("active");
     } else {
         return;
     }
 }
 
 function toNext() {
+    video = document.querySelector("video:nth-of-type(" + currentAlbum + ")");
+    albumNav = document.querySelector("#redirect li:nth-of-type(" + currentAlbum + ")");
     if(currentAlbum < 4) {
         bodyElement.classList.remove(bodyClasses[currentAlbum - 1]);
+        video.classList.remove("active");
+        albumNav.classList.remove("active");
+
         currentAlbum++  ;
+        video = document.querySelector("video:nth-of-type(" + currentAlbum + ")");
+        albumNav = document.querySelector("#redirect li:nth-of-type(" + currentAlbum + ")");
+        
         bodyElement.classList.add(bodyClasses[currentAlbum - 1]);
+        video.classList.add("active");
+        albumNav.classList.add("active");
     } else {
         return;
     }
@@ -53,6 +76,7 @@ var span4 = document.querySelector("section:nth-of-type(1) span:nth-of-type(4)")
 
 // Wanneer je op de spans binnen de video klikt speelt het een interval af
 function playVid() {
+    videoEm = document.querySelector("video.active");
     videoEm.currentTime = spanTime;
     videoEm.play();
     setTimeout(() => {
