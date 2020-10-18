@@ -13,6 +13,34 @@ function fade() {
 window.addEventListener("load", fade);
 
 
+// Next/previous album
+var previousButton = document.querySelector("section:nth-of-type(1) button:nth-of-type(1)");
+var nextButton = document.querySelector("section:nth-of-type(1) button:nth-of-type(2)");
+var bodyClasses = ["v1", "v2", "v3", "v4"];
+
+function goBack() {
+    if(currentAlbum > 1) {
+        bodyElement.classList.remove(bodyClasses[currentAlbum - 1]);
+        currentAlbum--;
+        bodyElement.classList.add(bodyClasses[currentAlbum - 1]);
+    } else {
+        return;
+    }
+}
+
+function toNext() {
+    if(currentAlbum < 4) {
+        bodyElement.classList.remove(bodyClasses[currentAlbum - 1]);
+        currentAlbum++  ;
+        bodyElement.classList.add(bodyClasses[currentAlbum - 1]);
+    } else {
+        return;
+    }
+}
+
+previousButton.addEventListener("click", goBack);
+nextButton.addEventListener("click", toNext);
+
 
 // Video controls
 var videoEm = document.querySelector("video.active");
@@ -65,12 +93,18 @@ span4.addEventListener("click", play4);
 
 // Muziek 
 var soundButton = document.getElementById("soundButton");
+var album2 = ["media/v21.mp3", "media/v22.mp3", "media/v23.mp3", "media/v24.mp3", "media/v25.mp3"]
 var album3 = ["media/v31.mp3", "media/v32.mp3", "media/v33.mp3", "media/v34.mp3", "media/v35.mp3"]
 var song;
 
 // Speelt random mp3 af van actieve album
 function randomSong() {
     switch(currentAlbum) {
+        case 2:
+            song = new Audio(album2[Math.floor(Math.random() * album2.length)]);
+            song.play();
+        break;
+
         case 3:
             song = new Audio(album3[Math.floor(Math.random() * album3.length)]);
             song.play();
@@ -78,10 +112,8 @@ function randomSong() {
     }
 }
 
+// pakt een random interval om af te spelen
 function playRandom() {
-    randomSong();    
-
-    // pakt een random interval om af te spelen
     let random = Math.floor(Math.random() * 4 + 1);
     switch(random) {
         case 1:

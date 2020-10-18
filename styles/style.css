@@ -130,7 +130,8 @@ main {
 /* ---- Section 1 ---- */
 
 /* Button 1: Give me a Sound */
-button {
+/* dit had gewoon button moeten zijn maar dat breekt de buttons van tourpage en waarschijnlijk geen tijd meer om dat nu te fixen */
+.button1, .button2 {
   font-family: "Neutra Text Book";
   font-weight: 900;
   display: block;
