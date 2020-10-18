@@ -22,18 +22,22 @@ var video;
 var albumNav;
 
 function goBack() {
+    // Selecteert huidige video en album nav element
     video = document.querySelector("video:nth-of-type(" + currentAlbum + ")");
     albumNav = document.querySelector("#redirect li:nth-of-type(" + currentAlbum + ")");
 
     if(currentAlbum > 1) {
+        // Haalt de active classes van de elementen af
         bodyElement.classList.remove(bodyClasses[currentAlbum - 1]);
         video.classList.remove("active");
         albumNav.classList.remove("active");
 
+        // Verlaagt current album en selecteert video en nav opnieuw
         currentAlbum--;
         video = document.querySelector("video:nth-of-type(" + currentAlbum + ")");
         albumNav = document.querySelector("#redirect li:nth-of-type(" + currentAlbum + ")");
         
+        // Voegt de classes toe aan de nieuwe elementen en veranderd de h2
         bodyElement.classList.add(bodyClasses[currentAlbum - 1]);
         video.classList.add("active");
         albumNav.classList.add("active");
@@ -60,6 +64,7 @@ function toNext() {
         albumNav.classList.add("active");
         headerH2.innerHTML = "Vol. " + currentAlbum;
 
+        // Als current album 4 is komt coming soon erbij
         if(currentAlbum === 4) {
             headerH2.innerHTML = "Vol. " + currentAlbum + " (coming soon)";
         }
