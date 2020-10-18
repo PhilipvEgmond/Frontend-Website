@@ -42,6 +42,33 @@ body.v4 {
   background-size: cover;
 }
 
+.v1 .button1, .v1 .button2 {
+  background: #DECCC8;
+}
+
+.v1 .button1:hover, .v1 .button1:focus, .v1 .button2:hover, .v1 .button2:focus {
+  cursor: pointer;
+  background: rgba(255, 255, 255, .4)
+}
+
+.v2 .button1, .v2 .button2 {
+  background: #214D27;
+}
+
+.v2 .button1:hover, .v2 .button1:focus, .v2 .button2:hover, .v2 .button2:focus {
+  cursor: pointer;
+  background: rgba(255, 255, 255, .4)
+}
+
+.v4 .button1, .v4 .button2 {
+  background: #AE2D19;
+}
+
+.v4 .button1:hover, .v4 .button1:focus, .v4 .button2:hover, .v4 .button2:focus {
+  cursor: pointer;
+  background: rgba(255, 255, 255, .4)
+}
+
 
 /* Fade in laden pagina */
 body span:nth-of-type(1) {
@@ -101,12 +128,12 @@ nav li {
 }
 
 nav a {
-  color: #999;
+  color: white;
   text-decoration: none;
 }
 
 nav a:hover, nav a:focus {
-  color: white;
+  color: #999;
 }
 
 
@@ -162,34 +189,6 @@ main {
   transform: scale(1.05, 1.03);
 }
 
-
-/* Stijl verandingeren buttons */
-.v1 .button1, .v1 .button2 {
-  background: #DECCC8;
-}
-
-.v1 .button1:hover, .v1 .button1:focus, .v1 .button2:hover, .v1 .button2:focus {
-  cursor: pointer;
-  background: rgba(255, 255, 255, .4)
-}
-
-.v2 .button1, .v2 .button2 {
-  background: #214D27;
-}
-
-.v2 .button1:hover, .v2 .button1:focus, .v2 .button2:hover, .v2 .button2:focus {
-  cursor: pointer;
-  background: rgba(255, 255, 255, .4)
-}
-
-.v4 .button1, .v4 .button2 {
-  background: #AE2D19;
-}
-
-.v4 .button1:hover, .v4 .button1:focus, .v4 .button2:hover, .v4 .button2:focus {
-  cursor: pointer;
-  background: rgba(255, 255, 255, .4)
-}
 
 
 /* Container section 1 -- kreeg het niet voor elkaar met article??? */

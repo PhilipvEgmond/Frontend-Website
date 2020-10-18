@@ -1,5 +1,4 @@
 // JavaScript Document
-var currentAlbum = 3;
 
 
 // Laat pagina zien als het geladen is
@@ -14,6 +13,8 @@ window.addEventListener("load", fade);
 
 
 // Next/previous album
+var currentAlbum = 3;
+var headerH2 = document.querySelector("header h2");
 var previousButton = document.querySelector("section:nth-of-type(1) button:nth-of-type(1)");
 var nextButton = document.querySelector("section:nth-of-type(1) button:nth-of-type(2)");
 var bodyClasses = ["v1", "v2", "v3", "v4"];
@@ -36,6 +37,7 @@ function goBack() {
         bodyElement.classList.add(bodyClasses[currentAlbum - 1]);
         video.classList.add("active");
         albumNav.classList.add("active");
+        headerH2.innerHTML = "Vol. " + currentAlbum;
     } else {
         return;
     }
@@ -56,6 +58,11 @@ function toNext() {
         bodyElement.classList.add(bodyClasses[currentAlbum - 1]);
         video.classList.add("active");
         albumNav.classList.add("active");
+        headerH2.innerHTML = "Vol. " + currentAlbum;
+
+        if(currentAlbum === 4) {
+            headerH2.innerHTML = "Vol. " + currentAlbum + " (coming soon)";
+        }
     } else {
         return;
     }
@@ -117,13 +124,20 @@ span4.addEventListener("click", play4);
 
 // Muziek 
 var soundButton = document.getElementById("soundButton");
-var album2 = ["media/v21.mp3", "media/v22.mp3", "media/v23.mp3", "media/v24.mp3", "media/v25.mp3"]
-var album3 = ["media/v31.mp3", "media/v32.mp3", "media/v33.mp3", "media/v34.mp3", "media/v35.mp3"]
+var album1 = ["media/v11.mp3", "media/v12.mp3", "media/v13.mp3", "media/v14.mp3", "media/v15.mp3"];
+var album2 = ["media/v21.mp3", "media/v22.mp3", "media/v23.mp3", "media/v24.mp3", "media/v25.mp3"];
+var album3 = ["media/v31.mp3", "media/v32.mp3", "media/v33.mp3", "media/v34.mp3", "media/v35.mp3"];
+var album4 = ["media/v41.mp3", "media/v42.mp3", "media/v43.mp3", "media/v44.mp3", "media/v45.mp3"];
 var song;
 
 // Speelt random mp3 af van actieve album
 function randomSong() {
     switch(currentAlbum) {
+        case 1:
+            song = new Audio(album1[Math.floor(Math.random() * album1.length)]);
+            song.play();
+        break;
+
         case 2:
             song = new Audio(album2[Math.floor(Math.random() * album2.length)]);
             song.play();
@@ -131,6 +145,11 @@ function randomSong() {
 
         case 3:
             song = new Audio(album3[Math.floor(Math.random() * album3.length)]);
+            song.play();
+        break;
+
+        case 4:
+            song = new Audio(album4[Math.floor(Math.random() * album4.length)]);
             song.play();
         break;
     }
