@@ -21,10 +21,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Met hard werken heb ik alles kunnen halen dat ik in gedachten had.
+Ik heb de stijl- en interactie veranderingen kunnen maken naast alles responsive hebben. <br> <br>
+Waar ik erg lang mee zat te rotzooien is de 4 spans over de video krijgen, ik pakte het veel te lastig aan door met aspect ratio te werken maar met een simpele aanpakt werkte het.
+Ook wilde ik een div vervangen voor article, alleen werkte mijn code hier niet mee en heb geen idee waarom.
+Wat ook jammer was is dat ik met een aantal buttons als a ben begonnen. Toen ik dit ging aanpassen en .button classes naar button wilde veranderen brak het mijn tweede pagina. Ik had hier helaas geen tijd meer voor om te optimaliseren dus heb ik de classes gehouden. <br> <br>
+Voor de rest ging alles heel goed, alle js interacties en de footer verliepen echt vlekkeloos. Ik heb zoveel sneller leren werken door deze website omdat hij vergeleken met wat we vorig jaar hebben gedaan zo enorm veel ingewikkelder is. Dit merkte ik ook heel erg in het tempo waarop mijn website werd ontwikkeld. Het begin zak ik heel veel vast en ging het langzaam en op het eind ging het echt als een speer. Conclusie: zeer geslaagd project als ik naar mijn eigen ontwikkeling van skills kijk. 
+
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![](images/eindresultaatSS1.png)
+![](images/eindresultaatSS2.png)
+![](images/eindresultaatSS3.png)
+![](images/eindresultaatSS4.png)
 
 
 
